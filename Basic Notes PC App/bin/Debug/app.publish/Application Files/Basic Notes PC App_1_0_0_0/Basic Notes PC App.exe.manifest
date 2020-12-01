@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Basic Notes PC App.exe" version="1.0.0.0" publicKeyToken="7f5b18f5ff6429fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Basic Notes PC App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Basic Notes PC App.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Basic Notes PC App.exe" size="14288">
+      <assemblyIdentity name="Basic Notes PC App" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tqsWOyg6xcb0rIVT6USd6w+wNM4outFwIPwDWCwleRA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Basic Notes PC App.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EVERETT-PC\Everett" issuerKeyHash="5b004559e21cdf4f30ad5ff7aa20d87c43a54180" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pYie62TNMxObWnmAMzVpCXDdorSdzR5dYXNwIv477Us=</DigestValue></Reference></SignedInfo><SignatureValue>WmWuFpSwz5XTHWEwigspdKZn4Wda6oTSjZMUTpVEuTbei6bfDRPJazuKKwnB3XIObDS34GciW2oS8rOa45ARGhqaU9uf/jAxH1L4BfEiqoM68Mj/Rdp17xILvVpdSAnDhkvo1Ir+e+os5HKvd1RrejdRYitZHSVaovyq0206mvE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lgOnZxXH3mf+IkawL8T1SGdCHpnwKGdWt9HcTL/IRLkxVsIfxOx4e9fqHZChaOek19kqwJazX0qR0SWQQJV7KggRCiI5ROikQOWKgxrEM6zIwzd7exCsIfjxilLy5UqAUMc7EgoI/aBxhq104v+3NeIAfVcJqEP6JYN79XRANt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4bed3bfe227073615d1ecd9db4a2dd700969353380795a9b1333cd64eb9e88a5" Description="" Url=""><as:assemblyIdentity name="Basic Notes PC App.exe" version="1.0.0.0" publicKeyToken="7f5b18f5ff6429fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EVERETT-PC\Everett</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Jia7+tr2Js01YNwzSQXkeTX52+StLpaVCN+MXfwcI/0=</DigestValue></Reference></SignedInfo><SignatureValue>Lvg5Ke++jPlDJwg/9YkcBkpqEv+d+SXselDHnkF2a8gBfJfAgUzGl0bGtjPSwNuoFamV4LScTbnzzjPlRYzf7mdMlPeMVxJ4EzCUPNj+piTW9pPozekzimm0MHmNVuS4Ew5K+sU3pHOXANrMUIxoBKvlZolGvngoofx54j+ITHs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lgOnZxXH3mf+IkawL8T1SGdCHpnwKGdWt9HcTL/IRLkxVsIfxOx4e9fqHZChaOek19kqwJazX0qR0SWQQJV7KggRCiI5ROikQOWKgxrEM6zIwzd7exCsIfjxilLy5UqAUMc7EgoI/aBxhq104v+3NeIAfVcJqEP6JYN79XRANt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQYRuOac6xCYVIggFm7DAGhTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARQBWAEUAUgBFAFQAVAAtAFAAQwBcAEUAdgBlAHIAZQB0AHQwHhcNMjAxMjAxMDc0MDExWhcNMjExMjAxMTM0MDExWjAvMS0wKwYDVQQDHiQARQBWAEUAUgBFAFQAVAAtAFAAQwBcAEUAdgBlAHIAZQB0AHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJYDp2cVx95n/iJGsC/E9UhnQh6Z8ChnVrfR3Ey/yES5MVbCH8TseHvX6h2QoWjnpNfZKsCWs19KkdElkECVeyoIEQoiOUTopEDlioMaxDOsyMM3e3sQrCH48YpS8uVKgFDHOxIKCP2gcYatdOL/tzXiAH1XCahD+iWDe/V0QDbdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAjuRW86LeZDap1ekB0tAeqG+IIgLtC+ejXAPrnZ4xPCd6sYlR7L6I1WTfqisGyLGTnlTE0ubMQF1OaIeK1DiyCh5rjrBVbIiwLZDAN2URZWoJLyHzRz9mRyJezh/0KWssYClpILYf7J3CSx2MkECWZ4AOpCOBnnFPDDmSYKNs/vM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

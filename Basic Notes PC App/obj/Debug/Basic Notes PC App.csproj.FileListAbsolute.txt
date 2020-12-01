@@ -1,0 +1,15 @@
+E:\Basic Notes PC App\bin\Debug\Basic Notes PC App.exe.config
+E:\Basic Notes PC App\bin\Debug\Basic Notes PC App.exe
+E:\Basic Notes PC App\bin\Debug\Basic Notes PC App.pdb
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.csprojAssemblyReference.cache
+E:\Basic Notes PC App\obj\Debug\Basic_Notes_PC_App.FormEditNote.resources
+E:\Basic Notes PC App\obj\Debug\Basic_Notes_PC_App.FormNotesScreen.resources
+E:\Basic Notes PC App\obj\Debug\Basic_Notes_PC_App.Properties.Resources.resources
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.csproj.GenerateResource.cache
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.csproj.CoreCompileInputs.cache
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.exe
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.pdb
+E:\Basic Notes PC App\bin\Debug\Basic Notes PC App.exe.manifest
+E:\Basic Notes PC App\bin\Debug\Basic Notes PC App.application
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.exe.manifest
+E:\Basic Notes PC App\obj\Debug\Basic Notes PC App.application
